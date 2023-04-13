@@ -1,0 +1,123 @@
+.song-selection__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-selection__img img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.song-selection__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-selection__left {
+  display: flex;
+}
+
+.song-selection__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-selection__username {
+  color: var(--grey);
+}
+
+.song-selection__title {
+  font-size: var(--title);
+  font-weight: 600;
+  margin-top: var(--top-space);
+}
+
+.song-selection__title h1:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.song-selection__right {
+  display: flex;
+  align-items: end;
+}
+
+.song-selection__more {
+  font-size: 14px;
+  padding: 11px 16px;
+}
+.song-selection__angle-left,
+.song-selection__angle-right {
+  padding: 12px 15px;
+}
+
+.song-selection__more,
+.song-selection__angle-left,
+.song-selection__angle-right {
+  border-radius: 20px;
+  border: 1px solid #ffffff3a;
+}
+
+.song-selection__angle-left {
+  margin-right: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.song-selection__main {
+  margin-top: 24px;
+  width: 100%;
+  height: 315px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-selection__songs div img {
+  width: 225px;
+  height: 225px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: -1;
+}
+
+@keyframes updown {
+  to {
+    ransform: translateY(10px);
+  }
+  from {
+    transform: translateY(30px);
+  }
+}
+
+.song-selection__cover-image:hover {
+  width: 225px;
+  background-color: #0b0b0b3a;
+  cursor: pointer;
+  animation: updown 1s ease-in-out;
+}
+
+.song-selection__cover-info {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-selection__singer {
+  margin-top: 8px;
+}
+
+.song-selection__song-title {
+  font-weight: 600;
+}
+
+.song-selection__song-title,
+.song-selection__singer {
+  font-size: var(--nickname);
+}
+.song-selection__singer {
+  color: var(--grey);
+}

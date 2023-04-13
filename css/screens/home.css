@@ -1,0 +1,43 @@
+.quick-selection {
+  margin-top: 110px;
+  width: 100%;
+  height: 345px;
+  background-color: tomato;
+}
+
+.quick-selection .quick-selection__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quick-selection .quick-selection__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-selection .quick-selection__text {
+  color: var(--grey);
+  font-size: 16px;
+}
+
+.quick-selection .quick-selection__title {
+  font-size: var(--title);
+  font-weight: 600;
+  margin-top: var(--top-space);
+}
+
+.quick-selection .quick-selection__right {
+  display: flex;
+  align-items: center;
+}
+
+.quick-selection .quick-selection__right span {
+  padding: 12px 15px;
+  border-radius: 50%;
+  border: 1px solid #ffffff3a;
+}
+
+.quick-selection .quick-selection__right span:first-child {
+  margin-right: 15px;
+  cursor: pointer;
+}

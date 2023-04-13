@@ -1,0 +1,11 @@
+.music-type {
+  height: 85px;
+}
+
+.music-type span {
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  background-color: #353535;
+  margin-right: 9px;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "../css/reset.css";
+@import "../css/variables.css";
+
+/* components */
+@import "components/header-bar.css";
+@import "components/music-type.css";
+@import "components/song-selection.css";
+
+/* screens */
+@import "screens/home.css";
+@import "screens/around.css";
+@import "screens/storagebox.css";
+
+body {
+  width: 100%;
+  color: #fff;
+  background-color: #010101;
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+main {
+  padding: 130px 280px;
+}
+
+/* 스크롤바 가로 사이즈 */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* 스크롤바 막대기 */
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+
+/* 스크롤바 백그라운드 */
+::-webkit-scrollbar-track {
+  background-color: #1d1c1c;
+}
