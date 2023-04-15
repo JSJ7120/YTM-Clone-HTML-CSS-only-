@@ -6,6 +6,7 @@
 @import "components/header-bar.css";
 @import "components/music-type.css";
 @import "components/song-selection.css";
+@import "components/music-bar.css";
 
 /* screens */
 @import "screens/home.css";
@@ -17,7 +18,7 @@ body {
   color: #fff;
   background-color: #010101;
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+  height: auto;
 }
 
 main {

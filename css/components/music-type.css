@@ -8,4 +8,9 @@
   border-radius: 7px;
   background-color: #353535;
   margin-right: 9px;
+  cursor: pointer;
+}
+
+.music-type span:hover {
+  background-color: #4e4e4e;
 }

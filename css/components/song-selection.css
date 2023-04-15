@@ -95,7 +95,7 @@
 
 .song-selection__cover-image:hover {
   width: 225px;
-  background-color: #0b0b0b3a;
+  background-color: var(--cover-box);
   cursor: pointer;
   animation: updown 1s ease-in-out;
 }
