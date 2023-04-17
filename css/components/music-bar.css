@@ -2,30 +2,32 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 72px;
+  height: 73px;
   background-color: #212121;
 }
 
 .music-bar .music-bar__slider {
   position: relative;
+  top: -2px;
   height: 2px;
   cursor: pointer;
   background-image: linear-gradient(to right, red 30%, #585454 30%);
 }
 
 .music-bar .music-bar__slider:hover {
-  height: 3px;
+  transform: scale(1.5, 1.5);
+  background-image: linear-gradient(to right, #ff0000 36.65%, #585454 36.65%);
 }
 
 .music-bar .music-bar__slider:hover::before {
   content: "";
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   position: absolute;
   border-radius: 50%;
   background-color: red;
-  left: 606px;
-  top: -4px;
+  left: 742px;
+  top: -2.5px;
 }
 
 .music-bar .music-bar__func {
@@ -33,4 +35,93 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.music-bar .music-bar__play-box {
+  display: flex;
+  align-items: center;
+}
+
+.music-bar .music-bar__play-box span:not(span:last-child) {
+  cursor: pointer;
+}
+
+.music-bar .music-bar__play-box span:last-child {
+  font-weight: 400;
+  font-size: 12px;
+  color: #aaa;
+  margin-left: 20px;
+}
+
+.music-bar .music-bar__play-box span:nth-child(2) {
+  margin: 0 40px;
+}
+
+.music-bar .music-bar__info-box {
+  display: flex;
+}
+
+.music-bar .music-bar__info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.music-bar__info .music-bar__title {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.music-bar__info .music-bar__title span:first-child {
+  font-size: var(--nickname);
+  font-weight: 600;
+}
+
+.music-bar__info .music-bar__title span:last-child {
+  font-size: var(--nickname);
+  font-weight: 400;
+  color: #aaa;
+}
+
+.music-bar__info .music-bar__title span:last-child:hover {
+  text-decoration: underline;
+}
+
+.music-bar__info .music-bar__option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+}
+
+.music-bar__info .music-bar__option span {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-bar__info .music-bar__option span:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #aaaaaa3e;
+}
+
+.music-bar .music-bar__controller {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.music-bar .music-bar__controller span {
+  cursor: pointer;
 }

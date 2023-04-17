@@ -84,7 +84,7 @@
   z-index: -1;
 }
 
-.quick-selection__contents .quick-selection__item > span {
+.quick-selection__contents .quick-selection__item > span a {
   margin-left: 8px;
   cursor: pointer;
 }
