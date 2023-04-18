@@ -15,15 +15,51 @@
 @import "screens/detailed-page.css";
 
 body {
-  width: 100%;
   color: #fff;
   background-color: #010101;
   font-family: "Open Sans", sans-serif;
   height: auto;
 }
 
-main {
-  padding: 130px 280px;
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  main {
+    padding: 130px 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  main {
+    padding: 130px 55px;
+  }
+  .main-img {
+    width: 191px;
+    height: 191px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1679px) {
+  main {
+    padding: 130px 64px;
+  }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+  main {
+    padding: 130px 198px;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  main {
+    padding: 130px 280px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .main-img {
+    width: 225px;
+    height: 225px;
+  }
 }
 
 /* 스크롤바 가로 사이즈 */

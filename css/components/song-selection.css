@@ -76,8 +76,8 @@
 }
 
 .song-selection__songs div img {
-  width: 225px;
-  height: 225px;
+  /* width: 225px;
+  height: 225px; */
   border-radius: 5px;
   cursor: pointer;
   position: relative;
