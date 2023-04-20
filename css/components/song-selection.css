@@ -92,7 +92,6 @@
 }
 
 .song-selection__cover-image:hover {
-  /* width: 225px; */
   background-color: var(--cover-box);
   cursor: pointer;
   animation: updown 1s ease-in-out;
@@ -120,6 +119,6 @@
   color: var(--grey);
 }
 
-.song-selection__main > div {
+/* .song-selection__main > div {
   width: 225px;
-}
+} */
