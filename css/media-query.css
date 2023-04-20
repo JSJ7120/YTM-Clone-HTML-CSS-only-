@@ -1,0 +1,62 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  main {
+    padding: 130px 55px;
+  }
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1679px) {
+  main {
+    padding: 130px 64px;
+  }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+  main {
+    padding: 130px 160px;
+  }
+}
+@media screen and (max-width: 1572px) {
+  .main-content,
+  .song-selection {
+    width: 1265px;
+  }
+
+  .song-selection__title {
+    font-size: 34px !important;
+  }
+
+  .song-selection__main > div {
+    width: 191px;
+  }
+
+  .quick-selection .quick-selection__title {
+    font-size: 34px !important;
+  }
+
+  .main-img {
+    width: 191px;
+    height: 191px;
+  }
+}
+
+@media screen and (min-width: 1573px) {
+  .main-content {
+    width: 1475px;
+  }
+
+  .song-selection {
+    width: 1475px;
+  }
+
+  .main-img {
+    width: 225px;
+    height: 225px;
+  }
+}
+
+/* 1920 이상 해상도 */
+@media screen and (min-width: 1920px) {
+  main {
+    padding: 130px 280px;
+  }
+}
