@@ -4,7 +4,6 @@
 
 .quick-selection {
   margin-top: 110px;
-  width: 100%;
 }
 
 .quick-selection .quick-selection__header {
@@ -52,13 +51,15 @@
   display: flex;
   justify-content: space-between;
   height: 240px;
+  overflow: hidden;
+  gap: 0px 65px;
 }
 
 .quick-selection__contents .quick-selection__lists {
-  width: 33.3%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 460px;
 }
 .quick-selection__contents .quick-selection__item {
   display: flex;
@@ -78,6 +79,7 @@
 .quick-selection__contents .quick-selection__info span:last-child {
   font-weight: 500;
   color: var(--grey);
+  white-space: nowrap;
 }
 
 .quick-selection__contents .quick-selection__item span img {

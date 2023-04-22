@@ -1,19 +1,26 @@
+/*            */
 /* album side */
-
+/*            */
 .detailed-contents {
-  /* padding-right: 100px; */
   display: flex;
-  /* height: 816px; */
+  height: 816px;
   flex-direction: row;
 }
 
-/* .detailed-contents .detailed-contents__album {
-  width: 720px;
-  height: 816px;
-} */
+.detailed-contents .detailed-contents__album {
+  /* width: 725px; */
+}
+.detailed-contents .detailed-contents__album img {
+  width: 725px;
+  max-width: 100%;
+  height: auto;
+}
+
+.detailed-contents .detailed-contents__album-img {
+  margin-top: 65px;
+}
 
 .detailed-contents .detailed-contents__toogle {
-  width: 100%;
   text-align: center;
 }
 .detailed-contents .detailed-contents__toogle-border {
@@ -63,11 +70,13 @@
   background-size: 720px 720px; */
 }
 
+/*                 */
 /* music-list side */
+/*                 */
 
 .detailed-contents__menu {
-  /* width: 668px;
-  margin-left: 280px; */
+  width: 660px;
+  margin-left: 280px;
 }
 
 .detailed-contents__menu .detailed-contents__menu-box {
@@ -132,6 +141,7 @@
 .detailed-contents__music-lists .detailed-contents__music-img {
   display: flex;
   align-items: center;
+  gap: 17px;
 }
 
 .detailed-contents__music-lists .detailed-contents__music-list {
@@ -145,7 +155,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-right: 363px;
+  gap: 7px;
+  white-space: nowrap;
 }
 
 .detailed-contents__music-list .detailed-contents__music-info span:last-child {
