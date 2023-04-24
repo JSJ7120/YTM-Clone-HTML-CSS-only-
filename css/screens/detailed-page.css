@@ -1,23 +1,27 @@
+.overflow-body {
+  overflow-y: hidden;
+}
 /*            */
 /* album side */
 /*            */
 .detailed-contents {
   display: flex;
-  height: 816px;
   flex-direction: row;
+  padding-top: 100px;
 }
 
-.detailed-contents .detailed-contents__album {
-  /* width: 725px; */
+.detailed-contents__album-img {
+  padding-top: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  text-align: center;
 }
+
 .detailed-contents .detailed-contents__album img {
   width: 725px;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-}
-
-.detailed-contents .detailed-contents__album-img {
-  margin-top: 65px;
 }
 
 .detailed-contents .detailed-contents__toogle {
@@ -45,29 +49,14 @@
   right: 16px;
 }
 
-.detailed-contents .detailed-contents__toogle-border span:last-child {
+.detailed-contents .detailed-contents__.toogle-border span:last-child {
   display: inline-block;
   height: 30px;
   line-height: 30px;
 }
 
-.detailed-contents .detailed-contents__album-img img {
-  /* background: url("../../img/cover-1.jpg"); */
-  /* width: 720px;
-  height: 720px; */
-  /* background-repeat: no-repeat;
-  background-size: 720px 720px; */
-}
-
-.detailed-contents .detailed-contents__album-img img:hover {
-  /* background: linear-gradient(
-      to bottom,
-      rgba(5, 5, 5, 0.5) 0%,
-      rgba(0, 0, 0, 0) 25%
-    ),
-    url("../../img/cover-1.jpg");
-  background-repeat: no-repeat;
-  background-size: 720px 720px; */
+.detailed-contents .detailed-contents__album-img:hover {
+  opacity: 0.7;
 }
 
 /*                 */
@@ -104,13 +93,11 @@
 .detailed-contents__menu .detailed-contents__music-type {
   display: flex;
   justify-content: space-between;
-  /* width: 466px; */
-  margin-bottom: 33px;
   overflow-x: hidden;
 }
 
 .detailed-contents__menu .detailed-contents__music-type:hover {
-  overflow-x: scroll;
+  overflow-x: overlay;
 }
 
 .detailed-contents__menu .detailed-contents__music-type span {
@@ -120,11 +107,7 @@
   background-color: #181818;
   cursor: pointer;
   white-space: nowrap;
-  margin: 0px 5px;
-}
-
-.detailed-contents__menu .detailed-contents__music-type::-webkit-scrollbar {
-  /* display: none; 크롬, 사파리, 오페라, 엣지 */
+  margin: 20px 5px;
 }
 
 .detailed-contents__menu .detailed-contents__music-type span:first-child {
@@ -138,6 +121,14 @@
   background-color: #444242;
 }
 
+.detailed-contents__menu {
+  height: 100vh;
+  overflow: hidden;
+}
+.detailed-contents__menu:hover {
+  overflow-y: overlay;
+}
+
 .detailed-contents__music-lists .detailed-contents__music-img {
   display: flex;
   align-items: center;
@@ -149,6 +140,7 @@
   justify-content: space-between;
   height: 57px;
   border-bottom: 1px solid #aaaaaa4d;
+  margin-right: 12px;
 }
 
 .detailed-contents__music-list .detailed-contents__music-info {
