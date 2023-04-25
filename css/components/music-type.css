@@ -5,6 +5,7 @@
   background-color: #1d1d1d;
   margin-right: 9px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .music-type > div > span:hover {
@@ -17,6 +18,10 @@
   align-items: center;
 }
 
+.music-type-v2 > div {
+  white-space: nowrap;
+}
+
 .music-type .music-sort div {
   display: flex;
   gap: 20px;
@@ -25,8 +30,12 @@
   padding: 12px 15px;
   cursor: pointer;
   border: 1px solid #333333;
+  font-size: 14px;
 }
 
+.music-type .music-sort > div {
+  white-space: nowrap;
+}
 .music-type .music-sort i {
   line-height: 10px;
 }

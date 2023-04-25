@@ -186,8 +186,8 @@
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s ease-in-out;
-  padding-left: 13px;
-  padding-right: 25px;
+}
+.song-genre .song-genre__tag div {
   box-sizing: border-box;
 }
 

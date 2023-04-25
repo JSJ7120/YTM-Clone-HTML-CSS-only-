@@ -62,7 +62,7 @@
     width: 191px;
   }
 }
-@media screen and (min-width: 1440px) and (max-width: 1679px) {
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
   .main-content {
     padding: 130px 70px;
   }
@@ -79,9 +79,9 @@
     width: 191px;
   }
 }
-@media screen and (min-width: 1680px) and (max-width: 1920px) {
+@media screen and (min-width: 1681px) and (max-width: 1920px) {
   .main-content {
-    padding: 130px 160px;
+    padding: 130px 165px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -196,25 +196,71 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .song-genre .song-genre__tag div {
+    width: 180px;
+    height: 48px;
+    padding-left: 10px;
+  }
+}
+
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-  .song-genre .song-genre__tag {
+  .song-genre .song-genre__tag div {
     width: 191px;
     height: 48px;
+    padding-left: 10px;
   }
   .music-sort p {
     font-size: 14px;
   }
 }
 
-@media screen and (min-width: 1441px) {
-  .song-genre .song-genre__tag {
+@media screen and (min-width: 1155px) and (max-width: 1440px) {
+  .song-genre .song-genre__tag div {
     width: 226px;
     height: 48px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .song-genre .song-genre__tag div {
+    width: 226px;
+    height: 48px;
+    padding-left: 18px;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .around-menu {
     width: 1482px;
+  }
+}
+
+/*  */
+/* storage-box.html */
+/*  */
+
+@media screen and (max-width: 724px) {
+  .storage-box__songs {
+    width: 138px !important;
+    height: 138px !important;
+  }
+
+  .storage-box__songs div img {
+    width: 138px !important;
+    height: 138px !important;
+  }
+  .storage-box__main {
+    gap: 14px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .storage-box__songs {
+    margin-top: 70px;
+  }
+  .storage-box {
+    margin-top: 0px !important;
   }
 }

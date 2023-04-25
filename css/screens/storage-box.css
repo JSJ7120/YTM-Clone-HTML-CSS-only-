@@ -1,0 +1,125 @@
+.storage-box {
+  margin-top: 35px;
+}
+
+.storage-box__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.storage-box__img img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+  white-space: nowrap;
+}
+
+.storage-box__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.storage-box__left {
+  display: flex;
+}
+
+.storage-box__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.storage-box__username {
+  color: var(--grey);
+}
+
+.storage-box__title {
+  font-size: var(--title);
+  font-weight: 600;
+  margin-top: var(--top-space);
+}
+
+.storage-box__title h1:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.storage-box__right {
+  display: flex;
+  align-items: end;
+}
+
+.storage-box__more {
+  font-size: 14px;
+  padding: 11px 16px;
+}
+.storage-box__angle-left,
+.storage-box__angle-right {
+  padding: 12px 15px;
+}
+
+.storage-box__more,
+.storage-box__angle-left,
+.storage-box__angle-right {
+  border-radius: 20px;
+  border: 1px solid #ffffff3a;
+}
+
+.storage-box__angle-left {
+  margin-right: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.storage-box__main {
+  height: 225px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.storage-box__songs {
+  width: 160px;
+  height: 160px;
+}
+
+.storage-box__songs div img {
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.storage-box__songs .img-maru {
+  border-radius: 50%;
+}
+
+.storage-box__cover-image:hover {
+  background-color: var(--cover-box);
+  cursor: pointer;
+}
+
+.storage-box__cover-info {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.storage-box__singer {
+  margin-top: 8px;
+}
+
+.storage-box__song-title {
+  font-weight: 600;
+}
+
+.storage-box__song-title,
+.storage-box__singer {
+  font-size: var(--nickname);
+  text-align: center;
+}
+.storage-box__singer {
+  color: var(--grey);
+}
