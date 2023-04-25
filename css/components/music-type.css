@@ -1,16 +1,32 @@
-.music-type {
-  height: 85px;
-}
-
-.music-type span {
+.music-type .music-type__title {
   font-size: 14px;
   padding: 8px 12px;
   border-radius: 7px;
-  background-color: #353535;
+  background-color: #1d1d1d;
   margin-right: 9px;
   cursor: pointer;
 }
 
-.music-type span:hover {
+.music-type > div > span:hover {
   background-color: #4e4e4e;
+}
+
+.music-type-v2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music-type .music-sort div {
+  display: flex;
+  gap: 20px;
+  border-radius: 50px;
+  background-color: #1d1d1d;
+  padding: 12px 15px;
+  cursor: pointer;
+  border: 1px solid #333333;
+}
+
+.music-type .music-sort i {
+  line-height: 10px;
 }

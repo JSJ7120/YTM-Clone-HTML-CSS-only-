@@ -64,12 +64,19 @@
 }
 @media screen and (min-width: 1440px) and (max-width: 1679px) {
   .main-content {
-    padding: 130px 64px;
+    padding: 130px 70px;
   }
   .quick-selection__title h1,
   .song-selection__title h1,
   .popularity-selection__title h1 {
     font-size: 34px;
+  }
+  .song-selection__songs div img {
+    width: 191px !important;
+    height: 191px !important;
+  }
+  .song-selection__songs {
+    width: 191px;
   }
 }
 @media screen and (min-width: 1680px) and (max-width: 1920px) {
@@ -180,10 +187,22 @@
   }
 }
 
+@media screen and (max-width: 935px) {
+  .around-menu__box {
+    flex-wrap: wrap;
+  }
+  .around-menu__box div {
+    width: 100% !important;
+  }
+}
+
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   .song-genre .song-genre__tag {
     width: 191px;
     height: 48px;
+  }
+  .music-sort p {
+    font-size: 14px;
   }
 }
 
@@ -191,5 +210,11 @@
   .song-genre .song-genre__tag {
     width: 226px;
     height: 48px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .around-menu {
+    width: 1482px;
   }
 }

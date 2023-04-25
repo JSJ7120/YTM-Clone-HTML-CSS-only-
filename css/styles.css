@@ -12,7 +12,7 @@
 /* screens */
 @import "screens/home.css";
 @import "screens/around.css";
-@import "screens/storagebox.css";
+@import "screens/storage-box.css";
 @import "screens/detailed-page.css";
 
 body {

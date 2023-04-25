@@ -1,3 +1,7 @@
+.song-selection {
+  margin-top: 40px;
+}
+
 .song-selection__box {
   display: flex;
   justify-content: space-between;
