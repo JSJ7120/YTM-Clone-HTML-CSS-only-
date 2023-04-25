@@ -1,3 +1,35 @@
+.around-menu {
+  width: 1482px;
+}
+
+.around-menu .around-menu__box {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.around-menu .around-menu__box div {
+  width: 477px;
+  height: 64px;
+  background-color: #292929;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 25px;
+  gap: 15px;
+}
+
+.around-menu .around-menu__box span {
+  white-space: nowrap;
+}
+
+.new-album {
+  margin-top: 92px;
+}
 .popularity-selection {
   margin-top: 110px;
 }
@@ -127,25 +159,34 @@
 }
 
 .song-genre .song-genre__tag-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: 15px;
+  height: 240px;
 }
 .song-genre .song-genre__tags {
   display: flex;
   justify-content: space-between;
+
+  gap: 20px;
+  overflow-x: hidden;
 }
 
 .song-genre .song-genre__tag {
-  width: 226px;
-  height: 48px;
   border-radius: 4px;
   background-color: #292929;
-}
-.song-genre .song-genre__tag p {
-  text-align: center;
   line-height: 48px;
+  white-space: nowrap;
   font-size: 14px;
   font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding-left: 13px;
+  padding-right: 25px;
+  box-sizing: border-box;
+}
 
-  width: 160px;
-  height: 45px;
+.song-genre .song-genre__tag:hover {
+  background-color: #212121;
 }

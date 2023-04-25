@@ -23,7 +23,8 @@
 }
 @media screen and (min-width: 320px) and (max-width: 1439px) {
   .quick-selection__title h1,
-  .song-selection__title h1 {
+  .song-selection__title h1,
+  .popularity-selection__title h1 {
     font-size: 24px;
   }
 }
@@ -43,6 +44,7 @@
   .song-selection__singer,
   .quick-selection__info span,
   .song-selection__song-title,
+  .popularity-selection__title,
   .song-selection__singer {
     font-size: 16px !important;
   }
@@ -65,7 +67,8 @@
     padding: 130px 64px;
   }
   .quick-selection__title h1,
-  .song-selection__title h1 {
+  .song-selection__title h1,
+  .popularity-selection__title h1 {
     font-size: 34px;
   }
 }
@@ -79,7 +82,8 @@
     padding: 130px 280px;
   }
   .song-selection,
-  .quick-selection {
+  .quick-selection,
+  .around-menu {
     width: 1482px;
   }
 }
@@ -161,3 +165,31 @@
 /*  */
 /* around.html */
 /*  */
+
+@media screen and (max-width: 615px) {
+  .song-genre .song-genre__tag {
+    width: 160px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 616px) and (max-width: 1024px) {
+  .song-genre .song-genre__tag {
+    width: 180px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .song-genre .song-genre__tag {
+    width: 191px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .song-genre .song-genre__tag {
+    width: 226px;
+    height: 48px;
+  }
+}
