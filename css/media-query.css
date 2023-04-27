@@ -215,14 +215,6 @@
   }
 }
 
-@media screen and (min-width: 1155px) and (max-width: 1440px) {
-  .song-genre .song-genre__tag div {
-    width: 226px;
-    height: 48px;
-    padding-left: 10px;
-  }
-}
-
 @media screen and (min-width: 1441px) {
   .song-genre .song-genre__tag div {
     width: 226px;

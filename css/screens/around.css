@@ -1,10 +1,7 @@
-/* .around-menu {
-  /* width: 1482px; }*/
-
 .around-menu .around-menu__box {
   display: flex;
   gap: 24px;
-  /* flex-wrap: wrap; */
+  justify-content: space-between;
 }
 
 .around-menu .around-menu__box div {
